@@ -1,4 +1,5 @@
 import { ToastContent, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 type MsgType = string | React.ReactNode;
 type ToastType = "error" | "warning" | "success";
